@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>View GitHub</title>
+</head>
+<body>
+   
+  <div>
+    <img src="logo.png" alt="GitHub">
+    <form>
+      <lable>User: </lable>
+      <input type="text" id="user" placeholder="Digite o seu usuario aqui">  
+    </form>
+      <button type="submit" onclick="app()">search</button>
+    <table id="header"></table>
+    <table id="repository"></table>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
